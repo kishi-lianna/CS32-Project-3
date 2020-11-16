@@ -68,12 +68,7 @@ void doGameTests()
 
 int main()
 {
-    //doGameTests();
-    //cout << "Passed all tests" << endl;
-    BadPlayer bp1("Bart");
-    HumanPlayer bp2("Homer");
-    Board b(6, 4);
-    Game g(b, &bp1, &bp2);
-    g.play();
+    doGameTests();
+    cout << "Passed all tests" << endl;
 }
 
